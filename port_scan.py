@@ -1,5 +1,11 @@
 #-*- coding: utf-8 -*-
 #!/usr/bin/python
+###port_scan.py
+###---------------------------------------------------------------
+### Objective: Scan ALL ports in a single host
+###---------------------------------------------------------------
+### Author: Natan Morette
+###----------------------------------------------------------
 import socket,sys
 
 for porta in range (1,65535):
