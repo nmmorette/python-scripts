@@ -7,6 +7,6 @@ for porta in range (1,65535):
     if meusocket.connect_ex((sys.argv[1],porta)) == 0:
         
         banner = meusocket.recv(1024)
-        print "Porta",porta, "[ABERTA]\n", "SERVIÇO",banner
+        print "Porta",porta, "[OPEN]\n", "SERVICE",banner
         meusocket.close()
 
